@@ -141,7 +141,7 @@ public class DescendingNumberManager : MonoBehaviour
         }
         
         // 着地時の超点滅演出を開始
-        StartCoroutine(LandingFlashCoroutine(landingFlashDuration));
+        //StartCoroutine(LandingFlashCoroutine(landingFlashDuration));
 
         if (landingEffectPrefab != null)
         {
